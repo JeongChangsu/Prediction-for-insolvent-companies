@@ -36,7 +36,7 @@
 
 
 
-# Contributions & Improved Skills
+### Contributions & Improved Skills
 
 -통계적 검정 경험
 
