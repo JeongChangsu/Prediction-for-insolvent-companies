@@ -44,11 +44,3 @@
 
 -다양한 머신러닝 모델 알고리즘에 대한 이해
 
-
-
-
-### Link
-
-https://github.com/JeongChangsu/prediction-for-insolvent-companies
-
-
