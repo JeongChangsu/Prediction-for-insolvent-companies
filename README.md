@@ -3,7 +3,7 @@
 
 
 
-Motivation
+### Motivation
 
 불확실한 세계 경제에 따른 국내 기업들의 부도 위험 증가
 
@@ -12,46 +12,42 @@ Motivation
 
 
 
+### Processes & Results
 
-Processes
-&
-Results
-●
 1.TS2000(기업 재무 데이터 플랫폼)에서 코스피와 코스닥에 상장한 2194개 기업(금융업 제외)의 2010년 ~ 2020년 재무 데이터를 가져옴
-●
+
 2.선행 연구 논문에서 사용된 피처를 참고하여 총 55개의 피처를 만든 후, 통계적 검정을 통하여 최종적으로 17개 피처 선정
-●
+
 3.Logistic Regression, SVM, KNN, Decision Tree 기반 앙상블 모델들의 성능 확인
-●
+
 4.포트폴리오 선정 및 백테스트 결과 부실 확률이 낮은 소형주에 대한 Buy & Hold 전략이 가장 효과적임을 검증
-●
 
 
 
 
-Insight
--
--다양한 샘플링 기법을 적용하였지만 극심하게 불균형한 데이터로 인한 왜곡을 무시하기 어려움
--
--각 부실 기업 예측 모델의 하이퍼 파라미터 튜닝을 하지 않았음에도 부실 기업을 잘 탐지해 냄
--
--부실 기업의 기준을 타이트하게 잡았기 때문에 정상 기업 중 부실 확률이 높은 데이터가 부족하여 포트폴리오 구성에 한계가 있었음
--
+### Insight
+
+- 다양한 샘플링 기법을 적용하였지만 극심하게 불균형한 데이터로 인한 왜곡을 무시하기 어려움
+
+- 각 부실 기업 예측 모델의 하이퍼 파라미터 튜닝을 하지 않았음에도 부실 기업을 잘 탐지해 냄
+
+- 부실 기업의 기준을 타이트하게 잡았기 때문에 정상 기업 중 부실 확률이 높은 데이터가 부족하여 포트폴리오 구성에 한계가 있었음
 
 
-Contributions
-&
-Improved Skills
 
--
+
+# Contributions & Improved Skills
+
 -통계적 검정 경험
--
--Pandas, Numpy, matplotlib을 이용한 EDA 및 데이터 전처리
--
--다양한 머신러닝 모델 알고리즘에 대한 이해
--
 
-Link
+-Pandas, Numpy, matplotlib을 이용한 EDA 및 데이터 전처리
+
+-다양한 머신러닝 모델 알고리즘에 대한 이해
+
+
+
+
+### Link
 
 https://github.com/JeongChangsu/prediction-for-insolvent-companies
 
